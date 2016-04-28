@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
+    <Compile Include="Commerce.cs" />
     <Compile Include="Company.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="Extensions\ArrayExtensions.cs" />
@@ -84,6 +85,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Address.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Commerce.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Commerce.resx</DependentUpon>
     </Compile>
     <Compile Include="Resources\Company.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -133,6 +139,10 @@
     <EmbeddedResource Include="Resources\Address.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Address.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Commerce.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Commerce.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Company.de-DE.resx" />
     <EmbeddedResource Include="Resources\Company.resx">

@@ -80,6 +80,7 @@
     <Compile Include="Extensions\StringExtensionsFixture.cs" />
     <Compile Include="InternetFixture.cs" />
     <Compile Include="LoremFixture.cs" />
+    <Compile Include="CommerceFixture.cs" />
     <Compile Include="NameFixture.cs" />
     <Compile Include="PhoneFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
